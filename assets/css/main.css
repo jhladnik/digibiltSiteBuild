@@ -3884,7 +3884,7 @@ input, select, textarea {
  	#piclink {
 		display: inline-block;
 		vertical-align: top;
-		padding: 0px;
+		padding: 0px 0px 8px 0px;
 		margin: 20px; 
 		width: 250px;
 		height: 150px;
@@ -4492,3 +4492,36 @@ input, select, textarea {
 		border-bottom: 2px solid RGba(81,145,158);
 		width: 90%;
 	}
+
+/* Store */
+
+#piclink3 {
+	display: inline-block;
+	vertical-align: top;
+	border: 2px solid gray;
+	padding: 5px;
+	margin: 20px; 
+	width: 250px;
+	height: 200px;
+	align-content: center;
+ }
+
+ .influencer {
+	 font-size: 28px;
+	 color:rgb(83, 86, 89);
+	 padding: 3px 0px 3px 0px;
+	 margin-bottom: 8px;
+ }
+
+ .influencer2 {
+	 color:rgb(83, 86, 89);
+	 padding-bottom: 1em;
+	 margin-bottom:0;
+ }
+
+ .storePlan {
+		font-size: 20px;
+		font-weight: bold;
+		color: rgb(83, 86, 89);
+	}
+ 
