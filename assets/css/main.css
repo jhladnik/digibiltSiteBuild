@@ -2903,7 +2903,7 @@ input, select, textarea {
 			font-weight: 525;
 			line-height: 1.4em;
 			margin-bottom: 0.7em;
-			padding: 60px 0 0 0;
+			padding: 1em 0 0 0;
 		}
 
 			#banner h2:after {
@@ -3274,7 +3274,7 @@ input, select, textarea {
 			}
 
 			#banner2 {
-				padding: 8em 0 5em 0 ;
+				padding: 1em 0 0 0;;
 			}
 
 	}
@@ -3358,7 +3358,7 @@ input, select, textarea {
 				}
 
 				#banner2 {
-				padding: 7em 0 4em 0 ;
+				padding: 1em 0 1em 0;;
 				}
 
 				#banner2 h2 {
@@ -3728,6 +3728,17 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
+		/* Banner */
+		 
+		#banner h2 {
+			padding: 1em 0 0 0;
+			font-size: 2.5em;
+		}
+
+		#banner p {
+			padding: 30px 0 30px 0;
+			font-size: 1em;
+		}
 
 		/* Button */
 
@@ -3736,7 +3747,7 @@ input, select, textarea {
 			input[type="button"],
 			button,
 			.button {
-				padding: 0;
+				padding: 0 5px 5px 5px;
 			}
 
 		/* Feature */
@@ -4030,8 +4041,8 @@ input, select, textarea {
 
 
 	#banner2 {
-		height: 750px;
-		padding: 8em 0 8em 0 ;
+		height: 1000px;
+		padding: 10em 0 8em 0 ;
 		background-attachment: scroll, fixed;
 		background-image: url("images/overlay.png"), url("../../images/banner2.jpg");
 		background-position: center center;
@@ -4495,33 +4506,54 @@ input, select, textarea {
 
 /* Store */
 
-#piclink3 {
-	display: inline-block;
-	vertical-align: top;
-	border: 2px solid gray;
-	padding: 5px;
-	margin: 20px; 
-	width: 250px;
-	height: 200px;
-	align-content: center;
- }
-
- .influencer {
-	 font-size: 28px;
-	 color:rgb(83, 86, 89);
-	 padding: 3px 0px 3px 0px;
-	 margin-bottom: 8px;
- }
-
- .influencer2 {
-	 color:rgb(83, 86, 89);
-	 padding-bottom: 1em;
-	 margin-bottom:0;
- }
-
- .storePlan {
-		font-size: 20px;
-		font-weight: bold;
-		color: rgb(83, 86, 89);
+	#piclink3 {
+		display: inline-block;
+		vertical-align: top;
+		border: 2px solid gray;
+		padding: 5px;
+		margin: 20px; 
+		width: 250px;
+		height: 200px;
+		align-content: center;
 	}
- 
+
+	.influencer {
+		font-size: 28px;
+		color:rgb(83, 86, 89);
+		padding: 3px 0px 3px 0px;
+		margin-bottom: 8px;
+	}
+
+	.influencer2 {
+		color:rgb(83, 86, 89);
+		padding-bottom: 1em;
+		margin-bottom:0;
+	}
+
+	.storePlan {
+			font-size: 20px;
+			font-weight: bold;
+			color: rgb(83, 86, 89);
+		}
+	.cart {
+		background: url(images/cart.svg);
+	}
+	
+	/* gray button */
+	input[type="submit"].gray,
+	input[type="reset"].gray,
+	input[type="button"].gray,
+		button.gray,
+		.button.gray {
+			background-color: transparent;
+			box-shadow: inset 0 0 0 2px black;
+			color: black !important;
+		}
+
+			input[type="submit"].gray:hover,
+			input[type="reset"].gray:hover,
+			input[type="button"].gray:hover,
+			button.gray:hover,
+			.button.gray:hover {
+				background-color: RGba(255,255,255,0.25);
+			}
