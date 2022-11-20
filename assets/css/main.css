@@ -3426,7 +3426,7 @@ input, select, textarea {
 		display: none;
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 806px) {
 
 		/* Basic */
 
@@ -4176,81 +4176,81 @@ input, select, textarea {
 		content: "\25B6";
 	}
 
-/* Slide Show */
+		/* Slide Show */
 
-.slideshow-container {
-	max-width: 1000px;
-	position: relative;
-	margin: auto;
-  }
-  
-  /* Hide the images by default */
-  .mySlides {
-	display: none;
-  }
-  
-  /* Next & previous buttons */
-  .prev, .next {
-	cursor: pointer;
-	position: absolute;
-	top: 50%;
-	width: auto;
-	margin-top: -22px;
-	padding: 16px;
-	color: white;
-	font-weight: bold;
-	font-size: 18px;
-	transition: 0.6s ease;
-	border-radius: 0 3px 3px 0;
-	user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-	right: 0;
-	border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-	background-color: rgba(0,0,0,0.8);
-  }
-  
-  /* Number text (1/5 etc) */
-  .numbertext {
-	color: #353535;
-	font-size: 18px;
-	padding: 8px 12px;
-	position: absolute;
-	top: 0;
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot {
-	cursor: pointer;
-	height: 15px;
-	width: 15px;
-	margin: 0 2px;
-	background-color: #bbb;
-	border-radius: 50%;
-	display: inline-block;
-	transition: background-color 0.6s ease;
-  }
-  
-  .dot:hover {
-	background-color: rgba(99, 99, 99, 0.8);
-  }
-  
-  /* Fading animation */
-  .fade {
-	animation-name: fade;
-	animation-duration: 1.5s;
-  }
-  
-  @keyframes fade {
-	from {opacity: .4}
-	to {opacity: 1}
-  }
+	.slideshow-container {
+		max-width: 1000px;
+		position: relative;
+		margin: auto;
+	}
+	
+	/* Hide the images by default */
+	.mySlides .myPlans {
+		display: none;
+	}
+	
+	/* Next & previous buttons */
+	.prev, .next {
+		cursor: pointer;
+		position: absolute;
+		top: 50%;
+		width: auto;
+		margin-top: -22px;
+		padding: 16px;
+		color: white;
+		font-weight: bold;
+		font-size: 18px;
+		transition: 0.6s ease;
+		border-radius: 0 3px 3px 0;
+		user-select: none;
+	}
+	
+	/* Position the "next button" to the right */
+	.next {
+		right: 0;
+		border-radius: 3px 0 0 3px;
+	}
+	
+	/* On hover, add a black background color with a little bit see-through */
+	.prev:hover, .next:hover {
+		background-color: rgba(0,0,0,0.8);
+	}
+	
+	/* Number text (1/5 etc) */
+	.numbertext {
+		color: #353535;
+		font-size: 18px;
+		padding: 8px 12px;
+		position: absolute;
+		top: 0;
+	}
+	
+	/* The dots/bullets/indicators */
+	.dot {
+		cursor: pointer;
+		height: 15px;
+		width: 15px;
+		margin: 0 2px;
+		background-color: #bbb;
+		border-radius: 50%;
+		display: inline-block;
+		transition: background-color 0.6s ease;
+	}
+	
+	.dot:hover {
+		background-color: rgba(99, 99, 99, 0.8);
+	}
+	
+	/* Fading animation */
+	.fade {
+		animation-name: fade;
+		animation-duration: 1.5s;
+	}
+	
+	@keyframes fade{
+		from {opacity: .4}
+		to {opacity: 1}
+	}
 
 
   /* ID Description */
@@ -4540,20 +4540,112 @@ input, select, textarea {
 	}
 	
 	/* gray button */
-	input[type="submit"].gray,
-	input[type="reset"].gray,
-	input[type="button"].gray,
-		button.gray,
-		.button.gray {
-			background-color: transparent;
+	input[type="submit"].back,
+	input[type="reset"].back,
+	input[type="button"].back,
+		button.back,
+		.button.back {
+			background-color: white;
 			box-shadow: inset 0 0 0 2px black;
 			color: black !important;
 		}
 
-			input[type="submit"].gray:hover,
-			input[type="reset"].gray:hover,
-			input[type="button"].gray:hover,
-			button.gray:hover,
-			.button.gray:hover {
-				background-color: RGba(255,255,255,0.25);
+			input[type="submit"].back:hover,
+			input[type="reset"].back:hover,
+			input[type="button"].back:hover,
+			button.back:hover,
+			.button.back:hover {
+				background-color: rgba(143, 143, 143, 0.31);
+				color: RGba(214,108,92)!important;
 			}
+
+	/* view button */
+	input[type="submit"].view,
+	input[type="reset"].view,
+	input[type="button"].view,
+		button.view,
+		.button.view {
+			background-color: white;
+			box-shadow: inset 0 0 0 2px black;
+			color: black !important;
+		}
+
+			input[type="submit"].view:hover,
+			input[type="reset"].view:hover,
+			input[type="button"].view:hover,
+			button.view:hover,
+			.button.view:hover {
+				background-color: rgba(143, 143, 143, 0.31);
+				box-shadow: inset 0 0 0 2px black;
+				color: black !important;
+			}
+
+	/* more button */
+	input[type="submit"].more,
+	input[type="reset"].more,
+	input[type="button"].more,
+		button.more,
+		.button.more {
+			background-color: black;
+			box-shadow: inset 0 0 0 2px black;
+			color: white!important;
+		}
+
+			input[type="submit"].more:hover,
+			input[type="reset"].more:hover,
+			input[type="button"].more:hover,
+			button.more:hover,
+			.button.more:hover {
+				background-color: rgba(143, 143, 143, 0.31);
+				box-shadow: inset 0 0 0 2px black;
+				color: black !important;
+			}
+	
+	/* add button */
+	input[type="submit"].add,
+	input[type="reset"].add,
+	input[type="button"].add,
+		button.add,
+		.button.add {
+			background-color: black;
+			box-shadow: inset 0 0 0 2px black;
+			color: white!important;
+		}
+
+			input[type="submit"].add:hover,
+			input[type="reset"].add:hover,
+			input[type="button"].add:hover,
+			button.add:hover,
+			.button.add:hover {
+				background-color: rgba(143, 143, 143, 0.31);
+				box-shadow: inset 0 0 0 2px black;
+				color:  RGba(214,108,92)!important;
+			}
+
+	/* like button */
+	input[type="submit"].like,
+	input[type="reset"].like,
+	input[type="button"].like,
+		button.like,
+		.button.like {
+			background-color: white;
+			box-shadow: inset 0 0 0 2px black;
+			color: gray!important;
+		}
+
+			input[type="submit"].like:hover,
+			input[type="reset"].like:hover,
+			input[type="button"].like:hover,
+			button.like:hover,
+			.button.like:hover {
+				background-color: rgba(143, 143, 143, 0.31);
+				box-shadow: inset 0 0 0 2px black;
+				color:  RGba(214,108,92)!important;
+			}
+
+	/* Cart */
+
+	.required-field::before {
+		content: "*";
+		color: red;
+	}
