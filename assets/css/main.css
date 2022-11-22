@@ -720,6 +720,11 @@ input, select, textarea {
 
 		@media screen and (max-width: 1280px) {
 
+			.switch {
+				flex-direction: column;
+				align-content: center;
+			}
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -964,6 +969,10 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 980px) {
+
+			.first {
+				order:-1;
+			}
 
 			.row {
 				display: flex;
@@ -3601,7 +3610,7 @@ input, select, textarea {
 					position: absolute;
 					text-align: center;
 					text-transform: uppercase;
-					top: 0;
+					top: 5px;
 					width: 100%;
 				}
 
@@ -4649,3 +4658,6 @@ input, select, textarea {
 		content: "*";
 		color: red;
 	}
+
+
+	/* Responsive elements */
