@@ -475,6 +475,46 @@ input, select, textarea {
 
 		@media screen and (max-width: 1680px) {
 
+			.storeHeading2 {
+				font-size: 2.5em;
+				color: gray;
+				font-weight: 400;
+			}
+
+			.storeHeading {
+				font-size: 4em;
+				color: rgb(59, 58, 58);
+			}
+
+			.influencer2 {
+				color:rgb(83, 86, 89);
+				padding-bottom: 1em;
+				margin-bottom:0;
+			}
+
+			#piclink4 {
+				display: inline-block;
+				vertical-align: top;
+				padding: 0px 4px 4px 0px;
+				margin: 20px; 
+				width: 200px;
+				height: 200px;
+				align-content: center;
+				font-size: 14px;
+			 }
+
+			#banner2 h2 {
+				color: #ffffff;
+				font-size: 3em;
+				line-height: 1.4em;
+				margin-bottom: 0.7em;
+				padding: 100px 0 0 0;
+			}
+
+			#callout2 {
+				padding-left: 5px;
+			}
+
 			#biltcd, #biltverify {
 				padding-top: 75px;
 				padding-bottom: 10px;
@@ -731,6 +771,55 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 1280px) {
+
+			.storeHeading2 {
+				font-size: 2.5em;
+				color: gray;
+				font-weight: 400;
+			}
+
+			.storeHeading {
+				font-size: 4em;
+				color: rgb(59, 58, 58);
+			}
+
+			.influencer2 {
+				color:rgb(83, 86, 89);
+				padding-bottom: 1em;
+				margin-bottom:0;
+			}
+
+			#piclink4 {
+				display: inline-block;
+				vertical-align: top;
+				padding: 0px 4px 4px 0px;
+				margin: 20px; 
+				width: 200px;
+				height: 200px;
+				align-content: center;
+				font-size: 18px;
+			 }
+
+			#banner2 h2 {
+				color: #ffffff;
+				font-size: 3em;
+				line-height: 1.4em;
+				margin-bottom: 0.7em;
+				padding: 100px 0 0 0;
+			}
+
+			#contactAdd {
+				font-size: 16px;
+			}
+
+			#workCat {
+				font-size: 16px;
+				
+			}
+
+			#callout2 {
+				padding-left: 5px;
+			}
 
 			#biltcd, #biltverify {
 				padding-top: 75px;
@@ -993,6 +1082,55 @@ input, select, textarea {
 		}
 
 		 @media screen and (max-width: 980px) {
+
+			.storeHeading2 {
+				font-size: 2em;
+				color: gray;
+				font-weight: 400;
+			}
+
+			.storeHeading {
+				font-size: 3em;
+				color: rgb(59, 58, 58);
+			}
+
+			.influencer2 {
+				color:rgb(83, 86, 89);
+				padding-bottom: 1em;
+				margin-bottom:0;
+			}
+
+			#piclink4 {
+				display: inline-block;
+				vertical-align: top;
+				padding: 0px 4px 4px 0px;
+				margin: 20px; 
+				width: 200px;
+				height: 200px;
+				align-content: center;
+				font-size: 24px;
+			 }
+
+			#banner2 h2 {
+				color: #ffffff;
+				font-size: 3em;
+				line-height: 1.4em;
+				margin-bottom: 0.7em;
+				padding: 100px 0 0 0;
+			}
+
+			#contactPic {
+				margin-top: 4em;
+			}
+
+			#callout {
+				font-size: 14px;
+			}
+
+			#callout2 {
+				font-size: 14px;
+				padding-left: 5px;
+			}
 
 			#bilttwin, #biltbom, #biltid {
 				width: 60%;
@@ -1271,6 +1409,46 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
+			.storeHeading2 {
+				font-size: 2em;
+				color: gray;
+				font-weight: 400;
+			}
+
+			.storeHeading {
+				font-size: 2.5em;
+				color: rgb(59, 58, 58);
+			}
+
+			.influencer2 {
+				color:rgb(83, 86, 89);
+				padding-bottom: 1em;
+				margin-bottom:0;
+			}
+
+			#piclink4 {
+				display: inline-block;
+				vertical-align: top;
+				padding: 0px 4px 4px 0px;
+				margin: 20px; 
+				width: 200px;
+				height: 200px;
+				align-content: center;
+				font-size: 26px;
+			 }
+
+			#banner2 h2 {
+				color: #ffffff;
+				font-size: 3em;
+				line-height: 1.4em;
+				margin-bottom: 0.7em;
+				padding: 100px 2em 0 2em;
+			}
+
+			#callout2 {
+				padding-left: 25px;
+			}
+
 			#bilttwin, #biltbom, #biltid {
 				width: 60%;
 				margin: auto;
@@ -1531,12 +1709,38 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
+			.storeHeading2 {
+				font-size: 1.5em;
+				color: gray;
+				font-weight: 400;
+			}
+
+			.storeHeading {
+				font-size: 2em;
+				color: rgb(59, 58, 58);
+			}
+
+			.influencer2 {
+				color:rgb(83, 86, 89);
+				padding-bottom: 0;
+				margin-bottom:0;
+			}
+
+			#banner2 h2 {
+				color: #ffffff;
+				font-size: 1em;
+				line-height: 1.4em;
+				margin-bottom: 0.7em;
+				padding: 100px 2em 0 2em;
+			}
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
 			}
+
 			#flip{
 				flex-direction: column-reverse;
 			}
@@ -3437,10 +3641,6 @@ input, select, textarea {
 				padding: 1em 0 1em 0;;
 				}
 
-				#banner2 h2 {
-					font-size: 2em;
-				}
-
 				#banner2 p {
 					font-size: 1em;
 				}
@@ -3959,7 +4159,7 @@ input, select, textarea {
  	#piclink {
 		display: inline-block;
 		vertical-align: top;
-		padding: 0px 8px 8px 0px;
+		padding: 0px 4px 4px 0px;
 		margin: 20px; 
 		width: 252px;
 		height: 152px;
@@ -4004,10 +4204,10 @@ input, select, textarea {
 	.rcorners4 {
 		display: inline-block;
 		vertical-align: top;
-		padding: 20px;
-		margin: 20px; 
-		width: 300px;
-		height: 300px;
+		padding: 10px;
+		margin: 10px; 
+		width: 250px;
+		height: 250px;
 		align-content: center;
 	}
 
@@ -4021,7 +4221,7 @@ input, select, textarea {
 	}
 
 	#gap {
-		padding-left: 10px;
+		padding-left: 5px;
 	}
 
 	#syp {
@@ -4105,8 +4305,8 @@ input, select, textarea {
 
 
 	#banner2 {
-		height: 1000px;
-		padding: 10em 0 8em 0 ;
+		height: 900px;
+		padding: 8em 0 8em 0 ;
 		background-attachment: scroll, fixed;
 		background-image: url("images/overlay.png"), url("../../images/banner2.jpg");
 		background-position: center center;
@@ -4115,13 +4315,6 @@ input, select, textarea {
 		text-align: center;
 	}
 
-		#banner2 h2 {
-			color: #ffffff;
-			font-size: 3em;
-			line-height: 1.4em;
-			margin-bottom: 0.7em;
-			padding: 155px 0 0 0;
-		}
 
 			#banner2 h2:after {
 				background-color: #ffffff;
@@ -4586,12 +4779,6 @@ input, select, textarea {
 		color:rgb(83, 86, 89);
 		padding: 3px 0px 3px 0px;
 		margin-bottom: 8px;
-	}
-
-	.influencer2 {
-		color:rgb(83, 86, 89);
-		padding-bottom: 1em;
-		margin-bottom:0;
 	}
 
 	.storePlan {
