@@ -475,6 +475,27 @@ input, select, textarea {
 
 		@media screen and (max-width: 1680px) {
 
+			#rcorners4 {
+				display: inline-block;
+				vertical-align: top;
+				padding: 10px;
+				margin: 10px; 
+				width: 250px;
+				height: 250px;
+				align-content: center;
+			}
+
+			#pricingSq {
+				font-size: 24px;
+				font-weight: bold;
+				color: white;
+			}
+
+			#pricingSqP {
+				font-size: 14px;
+				color: white;
+			}
+
 			.storeHeading2 {
 				font-size: 2.5em;
 				color: gray;
@@ -771,6 +792,27 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 1280px) {
+
+			#rcorners4 {
+				display: inline-block;
+				vertical-align: top;
+				padding: 10px;
+				margin: 10px; 
+				width: 250px;
+				height: 250px;
+				align-content: center;
+			}
+
+			#pricingSq {
+				font-size: 24px;
+				font-weight: bold;
+				color: white;
+			}
+
+			#pricingSqP {
+				font-size: 14px;
+				color: white;
+			}
 
 			.storeHeading2 {
 				font-size: 2.5em;
@@ -1082,6 +1124,27 @@ input, select, textarea {
 		}
 
 		 @media screen and (max-width: 980px) {
+
+			#rcorners4 {
+				display: inline-block;
+				vertical-align: top;
+				padding: 10px;
+				margin: 10px; 
+				width: 250px;
+				height: 250px;
+				align-content: center;
+			}
+
+			#pricingSq {
+				font-size: 24px;
+				font-weight: bold;
+				color: white;
+			}
+
+			#pricingSqP {
+				font-size: 14px;
+				color: white;
+			}
 
 			.storeHeading2 {
 				font-size: 2em;
@@ -1409,6 +1472,28 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
+
+			#rcorners4 {
+				display: inline-block;
+				vertical-align: top;
+				padding: 10px;
+				margin: 10px; 
+				width: 250px;
+				height: 250px;
+				align-content: center;
+			}
+
+			#pricingSq {
+				font-size: 24px;
+				font-weight: bold;
+				color: white;
+			}
+
+			#pricingSqP {
+				font-size: 14px;
+				color: white;
+			}
+
 			.storeHeading2 {
 				font-size: 2em;
 				color: gray;
@@ -1708,6 +1793,29 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 480px) {
+
+			#rcorners4 {
+				display: inline-block;
+				vertical-align: top;
+				padding: 10px;
+				margin: 10px; 
+				width: 250px;
+				height: 250px;
+				align-content: center;
+
+			}
+
+			#pricingSq {
+				font-size: 22px;
+				font-weight: bold;
+				color: white;
+			}
+
+			#pricingSqP {
+				font-size: 14px;
+				color: white;
+				margin-bottom: 1em;
+			}
 
 			.storeHeading2 {
 				font-size: 1.5em;
@@ -4199,16 +4307,6 @@ input, select, textarea {
 	
 	#pricingStore{
 		margin-bottom: -5px;
-	}
-
-	.rcorners4 {
-		display: inline-block;
-		vertical-align: top;
-		padding: 10px;
-		margin: 10px; 
-		width: 250px;
-		height: 250px;
-		align-content: center;
 	}
 
 	.priceCompare {
