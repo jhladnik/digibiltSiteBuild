@@ -528,7 +528,7 @@ input, select, textarea {
 				
 				input.slider::-moz-range-thumb {
 					width: 6px;
-					height: 600px;
+					height: 530px;
 					background-color: white;
 					cursor: pointer;
 				}
@@ -561,7 +561,7 @@ input, select, textarea {
 					position: absolute;
 					top: 3px;
 					left: 2px;
-					content: '\25C0';
+					content: '\25C0 \FE0E';
 				}
 				
 				div.slider-button:after {
@@ -569,7 +569,7 @@ input, select, textarea {
 					position: absolute;
 					top: 3px;
 					right: 1.5px;
-					content: "\25B6";
+					content: '\25B6 \FE0E';
 				}
 	
 
@@ -949,14 +949,14 @@ input, select, textarea {
 				
 				input.slider::-moz-range-thumb {
 					width: 6px;
-					height: 500px;
+					height: 345px;
 					background-color: white;
 					cursor: pointer;
 				}
 				
 				input.slider::-webkit-slider-thumb {
 					width: 5px;
-					height: 500px;
+					height: 345px;
 					background-color: white;
 					cursor: pointer;
 					appearance: none;
@@ -982,7 +982,7 @@ input, select, textarea {
 					position: absolute;
 					top: 3px;
 					left: 2px;
-					content: '\25C0';
+					content: '\25C0 \FE0E';
 				}
 				
 				div.slider-button:after {
@@ -990,7 +990,7 @@ input, select, textarea {
 					position: absolute;
 					top: 3px;
 					right: 1.5px;
-					content: "\25B6";
+					content: '\25B6 \FE0E';
 				}
 
 				
@@ -1051,14 +1051,14 @@ input, select, textarea {
 				
 				input.slider::-moz-range-thumb {
 					width: 6px;
-					height: 500px;
+					height: 300px;
 					background-color: white;
 					cursor: pointer;
 				}
 				
 				input.slider::-webkit-slider-thumb {
 					width: 5px;
-					height: 500px;
+					height: 300px;
 					background-color: white;
 					cursor: pointer;
 					appearance: none;
@@ -1084,7 +1084,7 @@ input, select, textarea {
 					position: absolute;
 					top: 3px;
 					left: 2px;
-					content: '\25C0';
+					content: '\25C0 \FE0E';
 				}
 				
 				div.slider-button:after {
@@ -1092,7 +1092,7 @@ input, select, textarea {
 					position: absolute;
 					top: 3px;
 					right: 1.5px;
-					content: "\25B6";
+					content: '\25B6 \FE0E';
 				}
 
 
@@ -1489,14 +1489,14 @@ input, select, textarea {
 				
 				input.slider::-moz-range-thumb {
 					width: 6px;
-					height: 600px;
+					height: 225px;
 					background-color: white;
 					cursor: pointer;
 				}
 				
 				input.slider::-webkit-slider-thumb {
 					width: 5px;
-					height: 313px;
+					height: 225px;
 					background-color: white;
 					cursor: pointer;
 					appearance: none;
@@ -1522,7 +1522,7 @@ input, select, textarea {
 					position: absolute;
 					top: 3px;
 					left: 3px;
-					content: '\25C0';
+					content: '\25C0 \FE0E';
 				}
 				
 				div.slider-button:after {
@@ -1530,7 +1530,7 @@ input, select, textarea {
 					position: absolute;
 					top: 3px;
 					right: .5px;
-					content: "\25B6";
+					content: '\25B6 \FE0E';
 				}
 
 			#serveList {
@@ -1934,14 +1934,14 @@ input, select, textarea {
 				
 				input.slider::-moz-range-thumb {
 					width: 6px;
-					height: 300px;
+					height: 175px;
 					background-color: white;
 					cursor: pointer;
 				}
 				
 				input.slider::-webkit-slider-thumb {
 					width: 5px;
-					height: 200px;
+					height: 175px;
 					background-color: white;
 					cursor: pointer;
 					appearance: none;
@@ -1967,7 +1967,7 @@ input, select, textarea {
 					position: absolute;
 					top: 3px;
 					left: 3px;
-					content: '\25C0';
+					content: '\25C0 \FE0E';
 				}
 				
 				div.slider-button:after {
@@ -1975,7 +1975,7 @@ input, select, textarea {
 					position: absolute;
 					top: 3px;
 					right: .5px;
-					content: "\25B6";
+					content: '\25B6 \FE0E';
 				}
 			}
 
@@ -2032,14 +2032,14 @@ input, select, textarea {
 				
 				input.slider::-moz-range-thumb {
 					width: 6px;
-					height: 300px;
+					height: 175px;
 					background-color: white;
 					cursor: pointer;
 				}
 				
 				input.slider::-webkit-slider-thumb {
 					width: 5px;
-					height: 200px;
+					height: 175px;
 					background-color: white;
 					cursor: pointer;
 					appearance: none;
@@ -2065,7 +2065,7 @@ input, select, textarea {
 					position: absolute;
 					top: 3px;
 					left: 3px;
-					content: '\25C0';
+					content: '\25C0 \FE0E';
 				}
 				
 				div.slider-button:after {
@@ -2073,7 +2073,7 @@ input, select, textarea {
 					position: absolute;
 					top: 3px;
 					right: .5px;
-					content: "\25B6";
+					content: '\25B6 \FE0E';
 				}
 
 			#serveList {
@@ -2452,14 +2452,14 @@ input, select, textarea {
 				
 				input.slider::-moz-range-thumb {
 					width: 6px;
-					height: 300px;
+					height: 175px;
 					background-color: white;
 					cursor: pointer;
 				}
 				
 				input.slider::-webkit-slider-thumb {
 					width: 5px;
-					height: 200px;
+					height: 175px;
 					background-color: white;
 					cursor: pointer;
 					appearance: none;
@@ -2485,7 +2485,7 @@ input, select, textarea {
 					position: absolute;
 					top: 3px;
 					left: 3px;
-					content: '\25C0';
+					content: '\25C0 \FE0E';
 				}
 				
 				div.slider-button:after {
@@ -2493,7 +2493,7 @@ input, select, textarea {
 					position: absolute;
 					top: 3px;
 					right: .5px;
-					content: "\25B6";
+					content: '\25B6 \FE0E';
 				}
 
 			#serveList {
