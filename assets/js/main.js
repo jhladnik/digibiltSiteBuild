@@ -154,24 +154,6 @@
 			});
 		
 		});
-
-//Auto-slideshow
-
-// 			let slideIndex = 0;
-// showSlides();
-
-// function showSlides() {
-//   let i;
-//   let slides = document.getElementsByClassName("mySlides");
-//   for (i = 0; i < slides.length; i++) {
-//     slides[i].style.display = "none";
-//   }
-//   slideIndex++;
-//   if (slideIndex > slides.length) {slideIndex = 1}
-//   slides[slideIndex-1].style.display = "block";
-//   setTimeout(showSlides, 4000); // Change image every 4 seconds
-// }
-
 })(jQuery);
 	
 
@@ -238,3 +220,12 @@
 					plans[planIndex-1].style.display = "block";
 					dots[planIndex-1].className += " active";
 	}
+
+// Copyright year change
+
+document.addEventListener('DOMContentLoaded', (e) => {
+	const yearE1 = document.getElementById('currentYear');
+	const currentYear = new Date().getFullYear();
+
+	yearE1.textContent = currentYear;
+})
